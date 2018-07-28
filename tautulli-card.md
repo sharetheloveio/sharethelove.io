@@ -46,6 +46,7 @@ views:
               top: 20%
               left: 15px
               font-size: 16px
+              color: white
               transform: none
           - type: custom:text-element
             text: "<b style='color: orange; font-size: 18px'>Statistics: </b>"
@@ -61,6 +62,7 @@ views:
             style:
               top: 60%
               left: 15px
+              color: white
               transform: none
           - type: custom:state-attribute-element
             entity: sensor.tautulli
@@ -70,6 +72,7 @@ views:
             style:
               top: 70%
               left: 15px
+              color: white
               transform: none
           - type: custom:state-attribute-element
             entity: sensor.tautulli
@@ -79,6 +82,7 @@ views:
             style:
               top: 80%
               left: 15px
+              color: white
               transform: none
 ```
 {% endcode-tabs-item %}
