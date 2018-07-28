@@ -4,7 +4,7 @@ Welcome to the community edition of example cards for Lovelace
 
 ## Contributing
 
- if you want to contribute with examples just ping either me or Ludeeus on discord or the forum.  
+ if you want to contribute with examples just click the `Edit on GitHub` button and start typing.  
   
 The only rules for submitting is that you have the package configuration included so that its easy for an beginner user to setup the card and that all resources are available either linked or added as files in the doc.
 
