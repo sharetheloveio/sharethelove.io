@@ -7,11 +7,13 @@ description: A card that display "Now playing" episode and stats from Tautulli
 ![](.gitbook/assets/plex_card%20%283%29.png)
 
 {% hint style="warning" %}
+
 This card uses these elements that you also need to install:
 
 * [sensor.tautilli](https://github.com/custom-components/sensor.tautulli)
 * [state-attribute-element](https://github.com/custom-cards/state-attribute-element)
 * [text-element](https://github.com/custom-cards/text-element)
+
 {% endhint %}
 
 {% file src=".gitbook/assets/plex.jpg" caption="Background for this card" %}
