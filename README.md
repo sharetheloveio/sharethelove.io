@@ -20,4 +20,4 @@ The only rules for submitting a new card is that you have the package configurat
 * You should **only** include graphics that you have the right to share.
 
 ***
-_This site has no affiliation with [Home Assistant](https://www.home-assistant.io/), this is a little project that was started by some of it's community members, if you have **any** issues with the content here do **not** seek help in Home Assistant' support channels, use our [issue tracker](https://github.com/sharetheloveio/sharethelove.io/issues) on GitHub._
+_This site has no affiliation with [Home Assistant](https://www.home-assistant.io/), this is a little project that was started by some of it's community members, if you have **any** issues with the content here do **not** seek help in **any** of Home Assistant's support channels, use our [issue tracker](https://github.com/sharetheloveio/sharethelove.io/issues) on GitHub._
