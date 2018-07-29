@@ -6,7 +6,7 @@ Welcome to the community edition of example cards for Lovelace
 
  If you want to contribute with examples:
  
- - Flick the `Edit on GitHub` to get to the repo on GitHub
+ - Click the `Edit on GitHub` to get to the repo on GitHub
  - Fork that repo to your own user.
  - Add you edits to your fork.
  - Make a PR to [sharetheloveio/sharethelove.io]()
