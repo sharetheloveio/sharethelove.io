@@ -7,3 +7,4 @@
 * [Temperature glance](temperature-glance.md)
 * [Xiaomi Vacuum Card](xiaomi-vacuum-card.md)
 * [Mi Flora Plant Card](plants-card.md)
+* [Fitbit Card](fitbit-card.md)
