@@ -12,6 +12,12 @@ This card requires you to install and setup the following components:
 [Fitbit](https://www.home-assistant.io/components/sensor.fitbit/)
 {% endhint %}
 
+This card requires you to install and setup the custom cards:
+
+{% hint style="info" %}
+[circle-sensor-card](https://github.com/custom-cards/circle-sensor-card)
+{% endhint %}
+
 ```yaml
     - type: picture-elements
       image: /local/lovelace/icons/fitbit.png
