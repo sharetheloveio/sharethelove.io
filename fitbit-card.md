@@ -1,18 +1,15 @@
 ---
 description: >-
-  A great way to display your Fitbit stats on a Lovelace card
+  A great way to display your Fitbit stats
 ---
 
 # Fitbit Card
-
-
-
 ![](.gitbook/assets/fitbit-card.png)
 
 This card requires you to install and setup the following components:
 
 {% hint style="info" %}
-* [Fitbit](https://www.home-assistant.io/components/sensor.fitbit/)
+[Fitbit](https://www.home-assistant.io/components/sensor.fitbit/)
 {% endhint %}
 
 ```yaml
@@ -229,6 +226,3 @@ This card requires you to install and setup the following components:
 * Be sure to change "Your Name" in the markdown card to match the user's
 * `sensor.resting_heart_rate` and `sensor.ionic_battery` are dependent on the Fitbit device you use and may not be available to you.
 {% endhint %}
-
-
-
