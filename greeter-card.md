@@ -24,8 +24,9 @@ This card requires you to install and setup the following components:
         - type: state-label
           entity: sensor.time
           style:
-            top: 8%
-            left: 10%
+            top: 5%
+            left: 5%
+            transform: none
             color: rgb(249, 251, 255)
             text-shadow: 2px 2px DarkSlateGrey
             font-family: Trebuchet MS
@@ -39,17 +40,18 @@ This card requires you to install and setup the following components:
         - type: state-icon
           entity: sensor.outside_temp
           style:
-            top: 7.5%
-            left: 82%
+            top: 5%
+            right: 18%
+            transform: none
             pointer-events: none
             max-width: 24px
             max-height: 24px
-            color: rgb(249, 251, 255)
         - type: state-label
           entity: sensor.outside_temp
           style:
-            top: 8%
-            left: 90%
+            top: 5%
+            right: 5%
+            transform: none
             font-weight: bold
             color: rgb(249, 251, 255)
             font-family: Trebuchet MS
@@ -58,7 +60,7 @@ This card requires you to install and setup the following components:
             -moz-osx-font-smoothing: grayscale
             font-smoothing: antialiased
             -webkit-font-smoothing: antialiased
-            
+
         - type: state-label
           entity: sensor.time_of_day
           style:
@@ -94,9 +96,9 @@ This card requires you to install and setup the following components:
             -webkit-font-smoothing: antialiased
 
         - type: state-label
-          entity: sensor.greeter_card_info
+          entity: device_tracker_change_me
           style:
-            top: 82%
+            bottom: 11%
             left: 0%
             color: rgb(255, 255, 255)
             transform: none
@@ -110,6 +112,26 @@ This card requires you to install and setup the following components:
             border-color: rgb(34, 154, 210)
             background-color: rgb(54, 65, 78)
             opacity: 0.8
+            width: 75%
+
+        - type: state-label
+          entity: sensor.greeter_card_calander
+          style:
+            bottom: 0%
+            left: 0%
+            color: rgb(255, 255, 255)
+            transform: none
+            font-family: Trebuchet MS
+            text-shadow: 2px 2px black
+            font-size: 90%
+            pointer-events: none
+            font-weight: bold
+            border-left-style: solid
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+            border-color: rgb(34, 154, 210)
+            background-color: rgb(54, 65, 78)
+            opacity: 0.8
+            width: 75%
 ```
 
 Here are the package with sensors
@@ -153,8 +175,6 @@ Please change the following states on the follwing sensors
     sensors:
       greeter_card_info:
         value_template: >
-          Current Location: {{ states('yourawesome_device_tracker') }}
-
           Next Event: {{ as_timestamp(states.calendar.your_awesome_mail.attributes.start_time) | timestamp_custom('%Y/%m/%d at %H:%M') }} - {{ states.calendar.your_awesome_mail.attributes.message }}
       
   - platform: command_line
