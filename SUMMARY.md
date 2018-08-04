@@ -1,6 +1,9 @@
 # Table of contents
 
 * [Welcome!](README.md)
+
+### Cards
+
 * [Greeter Card](greeter-card.md)
 * [Tautulli card](tautulli-card.md)
 * [Neato Vaccum Card](neato-vaccum-card.md)
@@ -8,3 +11,7 @@
 * [Xiaomi Vacuum Card](xiaomi-vacuum-card.md)
 * [Mi Flora Plant Card](plants-card.md)
 * [Fitbit Card](fitbit-card.md)
+
+### Tools
+
+* [Jinja Magic Scripts](jinja-magic-scripts.md)
