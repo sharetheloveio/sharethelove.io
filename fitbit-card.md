@@ -102,7 +102,7 @@ This card requires you to install and setup the following custom cards:
         text-shadow: '2px 2px black'
       color_stops:
         1: '#09C7E8'
-        10: '#0BDF0E' 
+        10: '#0BDF0E'
       style:
         top: 70%
         left: 43%
@@ -134,7 +134,7 @@ This card requires you to install and setup the following custom cards:
         transform: none
     - type: custom:circle-sensor-card
       entity: sensor.fitbit_minutes_active
-      max: 30 
+      max: 30
       min: 0
       stroke_width: 15
       gradient: true
@@ -162,11 +162,11 @@ This card requires you to install and setup the following custom cards:
         left: 1%
         font-size: 18px
         color: white
-        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black 
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
         "--paper-card-background-color": none
         "--paper-material-elevation-1_-_box-shadow": none
         "--shadow-elevation-2dp_-_box-shadow": none
-        transform: translate(0%,-50%)  
+        transform: translate(0%,-50%)
     - type: state-icon
       entity: sensor.weight
       title: Weight
@@ -247,7 +247,7 @@ This card requires you to install and setup the following custom cards:
         transform: none
 ```
 {% endcode-tabs-item %}
-{% endcode-tabs %} 
+{% endcode-tabs %}
 
 I had to create template sensors for steps and calories as the Fitbit sensor produces comma separated string values instead of numeric values. I also created a template sensor to track my weight loss.
 
@@ -272,8 +272,8 @@ sensor:
 ```
 
 {% hint style="info" %}
-**Additional tips:**   
-  
+**Additional tips:**
+
 * Be sure to change "Ian" in the markdown card to match the user's
 * Change your starting weight in the template sensor
 * Change your goal weight loss for the `max` value in the `circle-sensor-card` for `sensor.weight_loss` along with any other goal values for other things like steps/distance/calories
