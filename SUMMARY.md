@@ -4,14 +4,14 @@
 
 ### Cards
 
-* [Greeter Card](greeter-card.md)
-* [Tautulli card](tautulli-card.md)
-* [Neato Vaccum Card](neato-vaccum-card.md)
-* [Temperature glance](temperature-glance.md)
-* [Xiaomi Vacuum Card](xiaomi-vacuum-card.md)
-* [Mi Flora Plant Card](plants-card.md)
-* [Fitbit Card](fitbit-card.md)
+* [Greeter Card](cards/greeter-card.md)
+* [Tautulli card](cards/tautulli-card.md)
+* [Neato Vaccum Card](cards/neato-vaccum-card.md)
+* [Temperature glance](cards/temperature-glance.md)
+* [Xiaomi Vacuum Card](cards/xiaomi-vacuum-card.md)
+* [Mi Flora Plant Card](cards/plants-card.md)
+* [Fitbit Card](cards/fitbit-card.md)
 
 ### Tools
 
-* [Jinja Magic Scripts](jinja-magic-scripts.md)
+* [Jinja Magic Scripts](tools/jinja-magic-scripts.md)
