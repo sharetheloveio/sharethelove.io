@@ -10,7 +10,7 @@ This page contains a bunch of scripts that you need to run in the template edito
 # Jinja2 Script Helpers
 
 Use the following script to automatically generate the entity cards based on your current setup.
-```
+```yaml
 {% set domains = states | map(attribute='domain') |list | unique | list %}
 {%- for item in domains -%}
 - type: entities
