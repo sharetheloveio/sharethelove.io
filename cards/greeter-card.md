@@ -14,7 +14,7 @@ This card requires you to install and setup the following components:
 
 {% hint style="info" %}
 * [Yahoo Weather](https://www.home-assistant.io/components/weather.yweather/)
-* [Google Calander](https://www.home-assistant.io/components/calendar.google/)
+* [Google Calendar](https://www.home-assistant.io/components/calendar.google/)
 {% endhint %}
 
 ```yaml
