@@ -4,7 +4,7 @@ description: >-
 ---
 
 # Mi Flora Picture Elements Card
-![](.gitbook/assets/plants-card.png)
+![](../.gitbook/assets/plants-card.png)
 
 {% hint style="info" %}
 The color of the badges will depend on your [theme](https://www.home-assistant.io/lovelace/views/#themes).
@@ -67,4 +67,4 @@ sensor:
       - sensor.herbs_temperature
 ```
 
-{% file src=".gitbook/assets/plants.jpg" caption="The plants background image" %}
+{% file src="../.gitbook/assets/plants.jpg" caption="The plants background image" %}

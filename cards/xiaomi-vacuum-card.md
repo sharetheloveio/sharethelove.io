@@ -4,7 +4,7 @@ description: A card that allows you to view your Xiaomi Vacuum in Card form
 
 # Xiaomi Vacuum Card
 
-![](.gitbook/assets/vacuum_card_example.png)
+![](../.gitbook/assets/vacuum_card_example.png)
 
 {% hint style="warning" %}
 
@@ -14,7 +14,7 @@ This card uses these components that you also need to install:
 
 {% endhint %}
 
-{% file src=".gitbook/assets/vacuum_card.jpg" caption="Background for this card" %}
+{% file src="../.gitbook/assets/vacuum_card.jpg" caption="Background for this card" %}
 
 ```yaml
   - type: picture-elements
