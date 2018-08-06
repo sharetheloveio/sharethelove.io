@@ -4,7 +4,7 @@ description: >-
 ---
 
 # Fitbit Card
-![](/.gitbook/assets/fitbit-card.png)
+![](.gitbook/assets/fitbit-card.png)
 
 This card requires you to install and setup the following components:
 

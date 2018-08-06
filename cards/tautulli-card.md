@@ -4,7 +4,7 @@ description: A card that display "Now playing" episode and stats from Tautulli
 
 # Tautulli card
 
-![](/.gitbook/assets/tautulli.png)
+![](.gitbook/assets/tautulli.png)
 
 {% hint style="warning" %}
 
@@ -16,7 +16,7 @@ This card uses these elements that you also need to install:
 
 {% endhint %}
 
-{% file src="/.gitbook/assets/plex.jpg" caption="Background for this card" %}
+{% file src=".gitbook/assets/plex.jpg" caption="Background for this card" %}
 
 {% code-tabs %}
 {% code-tabs-item title="ui-lovelace.yaml" %}

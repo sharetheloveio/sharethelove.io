@@ -6,7 +6,7 @@ description: >-
 
 # Greeter Card
 
-![greeter-card](/.gitbook/assets/greeter-card.png)
+![greeter-card](.gitbook/assets/greeter-card.png)
 
 This card requires you to install and setup the following components:
 
@@ -249,7 +249,7 @@ weather_alert
 This package can use more customize-able input like [https://philhawthorne.com/making-home-assistants-presence-detection-not-so-binary/](https://philhawthorne.com/making-home-assistants-presence-detection-not-so-binary/) that will make the location status messages appear more dynamic. To animate the icons used for temperature use this icon pack [https://www.amcharts.com](https://www.amcharts.com) and put it in your WWW directory in Homeassistant.
 {% endhint %}
 
-{% file src="/.gitbook/assets/10922815\_725782897533748\_7579215957418386485\_o.jpg" caption="the image thats used for this card" %}
+{% file src=".gitbook/assets/10922815\_725782897533748\_7579215957418386485\_o.jpg" caption="the image thats used for this card" %}
 
 
 

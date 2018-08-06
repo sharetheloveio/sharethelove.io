@@ -13,7 +13,7 @@ This requires you to have the following component setup
 
 {% endhint %}
 
-![](/.gitbook/assets/image%20%281%29.png)
+![](.gitbook/assets/image%20%281%29.png)
 
 ```yaml
   - type: picture-elements
