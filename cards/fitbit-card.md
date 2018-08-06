@@ -4,7 +4,7 @@ description: >-
 ---
 
 # Fitbit Card
-![](.gitbook/assets/fitbit-card.png)
+![](/.gitbook/assets/fitbit-card.png)
 
 This card requires you to install and setup the following components:
 
@@ -278,4 +278,5 @@ sensor:
 * Change your starting weight in the template sensor
 * Change your goal weight loss for the `max` value in the `circle-sensor-card` for `sensor.weight_loss` along with any other goal values for other things like steps/distance/calories
 * `sensor.resting_heart_rate` and `sensor.ionic_battery` are dependent on the Fitbit device you use and may not be available to you.
+
 {% endhint %}

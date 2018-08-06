@@ -10,9 +10,10 @@ description: >-
 This requires you to have the following component setup
 
 * [Neato Botvac](https://www.home-assistant.io/components/neato/)
+
 {% endhint %}
 
-![](.gitbook/assets/image%20%281%29.png)
+![](/.gitbook/assets/image%20%281%29.png)
 
 ```yaml
   - type: picture-elements
@@ -104,6 +105,3 @@ Change neato on the states for your robots name in the template sensors
         friendly_name: "Neato: Status"
         value_template: "Status: {{ states.vacuum.neato.attributes.status }}"
 ```
-
-
-

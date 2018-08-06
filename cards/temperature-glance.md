@@ -4,7 +4,7 @@ description: A picture elements card that is faking the look of a picture glance
 
 # Temperature glance
 
-![](.gitbook/assets/glance_fake_temp.png)
+![](/.gitbook/assets/glance_fake_temp.png)
 
 {% hint style="info" %}
 Remember to change the sensor entities for your own.
