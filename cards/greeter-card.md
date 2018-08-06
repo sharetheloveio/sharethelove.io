@@ -6,9 +6,7 @@ description: >-
 
 # Greeter Card
 
-
-
-![](.gitbook/assets/image.png)
+![greeter-card](.gitbook/assets/greeter-card.png)
 
 This card requires you to install and setup the following components:
 
