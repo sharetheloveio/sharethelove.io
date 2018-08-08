@@ -1,9 +1,11 @@
 ---
-description: Floorplan card using the picture-elements card in the lovelace ui.
+description: Floorplan card using the picture-elements card
 ---
 
-# Temperature glance
+# 3D Floorplan Card
 This simple card displays a 3D floorplan and overlays black boxes to create the effect of lights turning on and off in the selected rooms.
+
+
 ![](../.gitbook/assets/floorplan.gif)
 
 {% hint style="info" %}
