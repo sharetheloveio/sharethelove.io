@@ -6,15 +6,15 @@ description: >-
 
 # Greeter Card
 
-
-
-![](.gitbook/assets/image.png)
+![greeter-card](../.gitbook/assets/greeter-card.png)
 
 This card requires you to install and setup the following components:
 
 {% hint style="info" %}
+
 * [Yahoo Weather](https://www.home-assistant.io/components/weather.yweather/)
-* [Google Calander](https://www.home-assistant.io/components/calendar.google/)
+* [Google Calendar](https://www.home-assistant.io/components/calendar.google/)
+
 {% endhint %}
 
 ```yaml
@@ -58,7 +58,7 @@ This card requires you to install and setup the following components:
             -moz-osx-font-smoothing: grayscale
             font-smoothing: antialiased
             -webkit-font-smoothing: antialiased
-            
+
         - type: state-label
           entity: sensor.time_of_day
           style:
@@ -127,6 +127,7 @@ Please change the following states on the follwing sensors
   states.calendar.your_awesome_mail.attributes.message
   change User to wanted name
   ```
+
 {% endhint %}
 
 ```yaml
@@ -248,7 +249,7 @@ weather_alert
 This package can use more customize-able input like [https://philhawthorne.com/making-home-assistants-presence-detection-not-so-binary/](https://philhawthorne.com/making-home-assistants-presence-detection-not-so-binary/) that will make the location status messages appear more dynamic. To animate the icons used for temperature use this icon pack [https://www.amcharts.com](https://www.amcharts.com) and put it in your WWW directory in Homeassistant.
 {% endhint %}
 
-{% file src=".gitbook/assets/10922815\_725782897533748\_7579215957418386485\_o.jpg" caption="the image thats used for this card" %}
+{% file src="../.gitbook/assets/10922815\_725782897533748\_7579215957418386485\_o.jpg" caption="the image thats used for this card" %}
 
 
 
