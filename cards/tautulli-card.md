@@ -42,7 +42,7 @@ views:
               transform: none
           - type: custom:state-attribute-element
             entity: sensor.tautulli__ludeeus
-            attribute: s_senum_e
+            attribute: magic_title
             show_empty: false
             style:
               top: 20%
