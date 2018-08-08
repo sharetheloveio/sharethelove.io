@@ -60,8 +60,6 @@ Change the pictures and sensors to your own.
 {% endcode-tabs %}
 
 {% hint style="info" %}
-Change the pictures and sensors to your own.
-
 The 3D floorplan was made using the free website https://www.sweethome3d.com
 
 The black boxes were cut out using the free software from https://www.gimp.org
