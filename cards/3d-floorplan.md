@@ -8,6 +8,11 @@ This simple card displays a 3D floorplan and overlays black boxes to create the 
 
 ![](../.gitbook/assets/floorplan.gif)
 
+{% file src="../.gitbook/assets/Floorplan.png" caption="Floorplan" %}
+{% file src="../.gitbook/assets/hallway.png" caption="Hallway overlay" %}
+{% file src="../.gitbook/assets/kitchen.png" caption="Kitchen overlay" %}
+{% file src="../.gitbook/assets/living_room.png" caption="Livingroom overlay" %}
+
 {% hint style="info" %}
 Change the pictures and sensors to your own.
 {% endhint %}
