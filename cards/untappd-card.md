@@ -203,8 +203,4 @@ And then some templating to get it too look the way it is on the picture, so her
        value_template: "{{ states.sensor.untappd_last_checkin.attributes.total_badges }}"
 ```
 
-<<<<<<< HEAD
 The icons are from [loading.io](https://loading.io/) and the background image isn't available for reuse so make your own.
-=======
-The icons are from [loading.io](https://loading.io/) and the background image isnt availble for reuse so make your own.
->>>>>>> origin/swetoast-patch-2
