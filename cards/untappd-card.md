@@ -1,6 +1,6 @@
 ---
 description: >-
-An awesome card for untappd that brings your stats into homeassistant
+  An awesome card for untappd that brings your stats into homeassistant
 ---
 
 # Untappd Card
