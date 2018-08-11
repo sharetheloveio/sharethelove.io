@@ -15,7 +15,7 @@ description: >-
     - type: image
       image: /local/icons/animated/media-card/up-arrow.png
       tap_action: call-service
-      service: shell_command.kodi_bedroom_up
+      service: shell_command.kodi_up
       style:
         top: 5em
         left: 10em
@@ -28,7 +28,7 @@ description: >-
     - type: image
       image: /local/icons/animated/media-card/home-button.png
       tap_action: call-service
-      service: shell_command.kodi_bedroom_home
+      service: shell_command.kodi_home
       style:
         top: 5em
         left: 6em
@@ -42,7 +42,7 @@ description: >-
     - type: image
       image: /local/icons/animated/media-card/update-button.png
       tap_action: call-service
-      service: shell_command.kodi_bedroom_update
+      service: shell_command.kodi_update
       style:
         top: 5em
         left: 14em
@@ -56,7 +56,7 @@ description: >-
     - type: image
       image: /local/icons/animated/media-card/poweroff-button.png
       tap_action: call-service
-      service: shell_command.kodi_bedroom_power
+      service: shell_command.kodi_power
       style:
         top: 5em
         left: 18em
@@ -70,7 +70,7 @@ description: >-
     - type: image
       image: /local/icons/animated/media-card/left-arrow.png
       tap_action: call-service
-      service: shell_command.kodi_bedroom_left
+      service: shell_command.kodi_left
       style:
         top: 9em
         left: 6em
@@ -82,7 +82,7 @@ description: >-
         z-index: 2
     - type: image
       image: /local/icons/animated/media-card/kodi-icon.png
-      entity: media_player.kodi_bedroom
+      entity: media_player.kodi
       style:
         top: 9em
         left: 10em
@@ -92,7 +92,7 @@ description: >-
     - type: image
       image: /local/icons/animated/media-card/right-arrow.png
       tap_action: call-service
-      service: shell_command.kodi_bedroom_right
+      service: shell_command.kodi_right
       style:
         top: 9em
         left: 14em
@@ -105,7 +105,7 @@ description: >-
     - type: image
       image: /local/icons/animated/media-card/reboot-button.png
       tap_action: call-service
-      service: shell_command.kodi_bedroom_restart
+      service: shell_command.kodi_restart
       style:
         top: 9em
         left: 18em
@@ -119,7 +119,7 @@ description: >-
     - type: image
       image: /local/icons/animated/media-card/down-arrow.png
       tap_action: call-service
-      service: shell_command.kodi_bedroom_down
+      service: shell_command.kodi_down
       style:
         top: 13em
         left: 10em
@@ -132,7 +132,7 @@ description: >-
     - type: image
       image: /local/icons/animated/media-card/clean-button.png
       tap_action: call-service
-      service: shell_command.kodi_bedroom_clean
+      service: shell_command.kodi_clean
       style:
         top: 13em
         left: 18em
@@ -146,7 +146,7 @@ description: >-
     - type: image
       image: /local/icons/animated/media-card/back-button.png
       tap_action: call-service
-      service: shell_command.kodi_bedroom_back
+      service: shell_command.kodi_back
       style:
         top: 13em
         left: 6em
@@ -160,7 +160,7 @@ description: >-
     - type: image
       image: /local/icons/animated/media-card/enter-button.png
       tap_action: call-service
-      service: shell_command.kodi_bedroom_enter
+      service: shell_command.kodi_enter
       style:
         top: 13em
         left: 14em
