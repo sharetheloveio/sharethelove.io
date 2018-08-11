@@ -197,11 +197,11 @@ case $1 in
 --up ) curl -sS --data-binary '{ "jsonrpc": "2.0", "method": "Input.Up", "id": "mybash"}' -H 'content-type: application/json;' http://127.0.0.1:80/jsonrpc ;;
 --left ) curl -sS --data-binary '{ "jsonrpc": "2.0", "method": "Input.Left", "id": "mybash"}' -H 'content-type: application/json;' http://127.0.0.1:80/jsonrpc ;;
 --right ) curl -sS --data-binary '{ "jsonrpc": "2.0", "method": "Input.Right", "id": "mybash"}' -H 'content-type: application/json;' http://127.0.0.1:80/jsonrpc ;;
---home ) curl -sS --data-binary '{ "jsonrpc": "2.0", "method": "Input.Home", "id": "mybash"}' -H 'content-type: application/json;' http://127.0.0.1O:80/jsonrpc ;;
+--home ) curl -sS --data-binary '{ "jsonrpc": "2.0", "method": "Input.Home", "id": "mybash"}' -H 'content-type: application/json;' http://127.0.0.1:80/jsonrpc ;;
 --select ) curl -sS --data-binary '{ "jsonrpc": "2.0", "method": "Input.Select", "id": "mybash"}' -H 'content-type: application/json;' http://127.0.0.1:80/jsonrpc ;;
 --update ) curl -sS --data-binary '{ "jsonrpc": "2.0", "method": "VideoLibrary.Scan", "id": "mybash"}' -H 'content-type: application/json;' http://127.0.0.1:80/jsonrpc ;;
 --clean ) curl -sS --data-binary '{ "jsonrpc": "2.0", "method": "VideoLibrary.Clean", "id": "mybash"}' -H 'content-type: application/json;' http://127.0.0.1:80/jsonrpc ;;
---poweroff ) curl -sS --data-binary '{ "jsonrpc": "2.0", "method": "System.Shutdown", "id": "mybash"}' -H 'content-type: application/json;' http://10.0.0.51:80/jsonrpc ;;
---restart ) curl -sS --data-binary '{ "jsonrpc": "2.0", "method": "System.OnRestart", "id": "mybash"}' -H 'content-type: application/json;' http://10.0.0.51:80/jsonrpc ;;
+--poweroff ) curl -sS --data-binary '{ "jsonrpc": "2.0", "method": "System.Shutdown", "id": "mybash"}' -H 'content-type: application/json;' http://127.0.0.1:80/jsonrpc ;;
+--restart ) curl -sS --data-binary '{ "jsonrpc": "2.0", "method": "System.OnRestart", "id": "mybash"}' -H 'content-type: application/json;' http://127.0.0.1:80/jsonrpc ;;
 esac
 ```
