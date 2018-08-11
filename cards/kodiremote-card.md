@@ -3,9 +3,9 @@ description: >-
   A simple remote that will hold up under any resolution
 ---
 
-# Untappd Card
+# Kodi Remote Card
 
-![untappd-card](../.gitbook/assets/kodiremote-card.png)
+![kodi remote card](../.gitbook/assets/kodiremote.png)
 
 
 ```yaml
