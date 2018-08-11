@@ -13,6 +13,7 @@
 * [Fitbit Card](cards/fitbit-card.md)
 * [3D Floorplan Card](cards/3d-floorplan.md)
 * [Untappd Card](cards/untappd-card.md)
+* [Kodi Remote Card](cards/kodiremote-card.md)
 
 ### Tools
 
