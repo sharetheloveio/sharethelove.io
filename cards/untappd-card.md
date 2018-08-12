@@ -18,7 +18,7 @@ This card requires you to install and setup the following components:
       image: /local/cards/untappd.png
       elements:
       - type: state-icon
-        entity: sensor.untappd_last_badge
+        entity: sensor.untappd_last_checkin
         style:
           top: 18px
           left: 8px
@@ -41,7 +41,7 @@ This card requires you to install and setup the following components:
           padding: 5px
           border-top-right-radius: 5px
       - type: state-icon
-        entity: sensor.untappd_last_checkin
+        entity: sensor.untappd_last_badge
         style:
           top: 64px
           left: 8px
