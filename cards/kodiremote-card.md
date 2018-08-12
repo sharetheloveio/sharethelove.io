@@ -7,7 +7,8 @@ description: >-
 
 ![kodi remote card](../.gitbook/assets/kodiremote.png)
 
-```yaml      - type: picture-elements
+```yaml      
+      - type: picture-elements
         image: /local/banners/empty_long_placeholder.png
         elements:
 
