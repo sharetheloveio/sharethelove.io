@@ -231,16 +231,20 @@ description: >-
 And then some shell_command to send commands to kodi
 
 ```yaml
-kodi_clean: "kodi_remote --clean"
-kodi_update: "kodi_remote --update"
-kodi_up: "kodi_remote --up"
-kodi_down: "kodi_remote --down"
-kodi_left: "kodi_remote --left"
-kodi_right: "kodi_remote --right"
-kodi_enter: "kodi_remote --select"
-kodi_home: "kodi_remote --home"
-kodi_power: "kodi_remote --poweroff"
-kodi_back: "kodi_remote --back"
+kodi_bedroom_clean: "kodi_remote --clean"
+kodi_bedroom_update: "kodi_remote --update"
+kodi_bedroom_up: "kodi_remote --up"
+kodi_bedroom_down: "kodi_remote --down"
+kodi_bedroom_left: "kodi_remote --left"
+kodi_bedroom_right: "kodi_remote --right"
+kodi_bedroom_enter: "kodi_remote --select"
+kodi_bedroom_home: "kodi_remote --home"
+kodi_bedroom_power: "kodi_remote --poweroff"
+kodi_bedroom_back: "kodi_remote --back"
+kodi_bedroom_mute: "kodi_remote --mute"
+kodi_bedroom_volumeup: "kodi_remote --volumeup"
+kodi_bedroom_volumedown: "kodi_remote --volumedown"
+kodi_bedroom_context: "kodi_remote --context"
 ```
 and last but not least the little shell script that handles the calls obviously swap the ip address and port in the shell script for your ip and port
 
