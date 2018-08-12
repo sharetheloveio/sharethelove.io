@@ -11,7 +11,6 @@ description: >-
       - type: picture-elements
         image: /local/banners/empty_long_placeholder.png
         elements:
-
           - type: image
             image: /local/icons/animated/media-card/up-arrow.png
             tap_action: call-service
@@ -263,7 +262,6 @@ case $1 in
        --mute ) curl -sS --data-binary '{ "jsonrpc": "2.0", "method": "Application.SetMute", "params": {"mute":"toggle"}, "id": "mybash"}' -H 'content-type: application/json;' $host ;;
    --volumeup ) curl -sS --data-binary '{ "jsonrpc": "2.0", "method": "Application.SetVolume", "params": { "volume": "increment" }, "id": 1 }' -H 'content-type: application/json;' $host ;;
  --volumedown ) curl -sS --data-binary '{ "jsonrpc": "2.0", "method": "Application.SetVolume", "params": { "volume": "decrement" }, "id": 1 }' -H 'content-type: application/json;' $host ;;
- --test ) curl -sS --data-binary '{ "jsonrpc": "2.0", "method": "VideoLibrary.GetTVShows", "id": "mybash"}' -H 'content-type: application/json;' $host ;;
 esac
 ```
 
