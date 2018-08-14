@@ -14,6 +14,8 @@
 * [3D Floorplan Card](cards/3d-floorplan.md)
 * [Untappd Card](cards/untappd-card.md)
 * [Kodi Remote Card](cards/kodiremote-card.md)
+* [Things That Are Probably Broken Card](cards/broken-card.md)
+
 
 ### Tools
 
