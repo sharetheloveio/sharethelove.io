@@ -15,6 +15,11 @@
 * [Untappd Card](cards/untappd-card.md)
 * [Kodi Remote Card](cards/kodiremote-card.md)
 
+### Custom cards resources
+
+* [Cards by @ciotlosm](https://github.com/ciotlosm/custom-lovelace)
+* [custom_cards (Github org.](https://github.com/custom-cards)
+
 ### Tools
 
 * [Jinja Magic Scripts](tools/jinja-magic-scripts.md)
