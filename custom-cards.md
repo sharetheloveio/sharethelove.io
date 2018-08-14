@@ -8,10 +8,13 @@
 * [bignumber-card](https://github.com/ciotlosm/custom-lovelace/tree/master/bignumber-card) - A simple card to display big numbers for sensors. It also supports severity levels as background
 * [canvas-gauge-card](https://github.com/custom-cards/canvas-gauge-card)
 * [circle-sensor-card](https://github.com/custom-cards/circle-sensor-card)
+* [column-card](https://github.com/thomasloven/lovelace-column-card)
 * [entity-attributes-card](https://github.com/ciotlosm/custom-lovelace/tree/master/entity-attributes-card) - EAllows you to show basic attributes from multiple entities
+* [fullykiosk](https://github.com/thomasloven/lovelace-fullykiosk)
 * [gauge-card](https://github.com/ciotlosm/custom-lovelace/tree/master/gauge-card) - A simple gauge implemented in CSS based on https://github.com/JohnrBell/Gauge_CSS
 * [group-card](https://github.com/ciotlosm/custom-lovelace/tree/master/group-card) - A simple card that expands a group to a list of entities to be used with `entities`, `glance`, etc.
 * [home-setter](https://github.com/ciotlosm/custom-lovelace/tree/master/home-setter) - A card that lets you choose a different homepage to be the default on the current browser
+* [lovelace-player](https://github.com/thomasloven/lovelace-player)
 * [monster-card](https://github.com/ciotlosm/custom-lovelace/tree/master/monster-card) - A magical card
 * [plan-coordinates](https://github.com/ciotlosm/custom-lovelace/tree/master/plan-coordinates) - Helper to display `left:` and `top:` to use as coordinates in entities in [picture-elements](https://www.home-assistant.io/lovelace/picture-elements/)
 * [state-attribute-element](https://github.com/custom-cards/state-attribute-element)
