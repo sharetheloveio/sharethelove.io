@@ -18,7 +18,7 @@
 ### Custom cards resources
 
 * [Cards by @ciotlosm](https://github.com/ciotlosm/custom-lovelace)
-* [custom_cards (Github org.](https://github.com/custom-cards)
+* [custom_cards (Github org.)](https://github.com/custom-cards)
 
 ### Tools
 
