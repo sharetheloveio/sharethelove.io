@@ -2,6 +2,9 @@
 
 * [Welcome!](README.md)
 
+* # Monster cards
+  * [Things That Are Probably Broken Card](monster-cards/broken-card.md)
+
 * # Picture-elements cards
   * [3D Floorplan Card](picture-elements/3d-floorplan.md)
   * [Fitbit Card](picture-elements/fitbit-card.md)
