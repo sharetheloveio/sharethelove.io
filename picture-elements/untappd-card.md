@@ -1,6 +1,7 @@
-# Untappd Card
-
-_An awesome card for untappd that brings your stats into homeassistant._
+---
+description: >-
+  An awesome card for untappd that brings your stats into homeassistant.
+---
 
 ![untappd-card](../.gitbook/assets/untappd-card.png)
 

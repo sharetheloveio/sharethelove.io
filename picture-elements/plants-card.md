@@ -1,6 +1,7 @@
-# Mi Flora Picture Elements Card
-
-_A nice card to display your plants moisture and combined temperature._
+---
+description: >-
+  A nice card to display your plants moisture and combined temperature.
+---
 
 ![](../.gitbook/assets/plants-card.png)
 

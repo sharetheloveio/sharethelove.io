@@ -1,6 +1,7 @@
-# Kodi Remote Card
-
-_A simple remote that will hold up under any resolution._
+---
+description: >-
+  A simple remote that will hold up under any resolution.
+---
 
 ![kodi remote card](../.gitbook/assets/kodiremote.png)
 

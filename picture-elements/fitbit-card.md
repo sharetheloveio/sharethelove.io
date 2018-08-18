@@ -1,6 +1,7 @@
-# Fitbit Card
-
-_A great way to display your Fitbit stats_
+---
+description: >-
+  A great way to display your Fitbit stats.
+---
 
 ![](../.gitbook/assets/fitbit-card.png)
 

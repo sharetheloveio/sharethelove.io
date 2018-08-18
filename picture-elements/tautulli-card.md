@@ -1,6 +1,7 @@
-# Tautulli card
-
-_A card that display "Now playing" episode and stats from Tautulli._
+---
+description: >-
+  A card that display "Now playing" episode and stats from Tautulli.
+---
 
 ![](../.gitbook/assets/tautulli.png)
 

@@ -1,6 +1,7 @@
-# Greeter Card
-
-_A simple greeter card that changes the welcome message based on time of day, it also uses weather from minutecast with animated icons._
+---
+description: >-
+  A simple greeter card that changes the welcome message based on time of day, it also uses weather from minutecast with animated icons.
+---
 
 ![greeter-card](../.gitbook/assets/greeter-card.png)
 
