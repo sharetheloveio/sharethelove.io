@@ -9,8 +9,6 @@ Welcome to the community edition of example cards for Lovelace
  - Click the `Edit on GitHub` to get to the repo on GitHub
  - Fork that repo to your own user.
  - Add your edits to your fork.
- - If you add a new card, make sure to link it in [SUMMARY.md](https://github.com/sharetheloveio/sharethelove.io/blob/master/SUMMARY.md)
- - Make a PR to [sharetheloveio/sharethelove.io]()
   
 The only rules for submitting a new card is that you have the package configuration included so that its easy for an beginner user to setup the card and that all resources are available either linked or added as files in the doc.
 
