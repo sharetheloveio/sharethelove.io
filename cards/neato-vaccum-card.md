@@ -105,3 +105,7 @@ Change neato on the states for your robots name in the template sensors
         friendly_name: "Neato: Status"
         value_template: "Status: {{ states.vacuum.neato.attributes.status }}"
 ```
+
+and here is the empty placeholder image
+
+![](../.gitbook/assets/empty.png)
