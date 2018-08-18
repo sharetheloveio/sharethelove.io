@@ -1,16 +1,16 @@
 ---
 description: >-
-  An awesome card for untappd that brings your stats into homeassistant
+  An awesome card for untappd that brings your stats into homeassistant.
 ---
-
-# Untappd Card
 
 ![untappd-card](../.gitbook/assets/untappd-card.png)
 
 This card requires you to install and setup the following components:
 
 {% hint style="info" %}
+
 * [Untapped](https://github.com/custom-components/sensor.untapped)
+
 {% endhint %}
 
 ```yaml

@@ -1,8 +1,7 @@
 ---
-description: A picture elements card that is faking the look of a picture glance, but with visible temperatures
+description: >-
+  A picture elements card that is faking the look of a picture glance, but with visible temperatures.
 ---
-
-# Temperature glance
 
 ![](../.gitbook/assets/glance_fake_temp.png)
 

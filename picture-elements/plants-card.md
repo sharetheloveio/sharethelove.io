@@ -1,9 +1,8 @@
 ---
 description: >-
-  A nice card to display your plants moisture and combined temperature
+  A nice card to display your plants moisture and combined temperature.
 ---
 
-# Mi Flora Picture Elements Card
 ![](../.gitbook/assets/plants-card.png)
 
 {% hint style="info" %}

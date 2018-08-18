@@ -1,8 +1,7 @@
 ---
-description: A card that allows you to view your Xiaomi Vacuum in Card form
+description: >-
+  A card that allows you to view your Xiaomi Vacuum in Card form.
 ---
-
-# Xiaomi Vacuum Card
 
 ![](../.gitbook/assets/vacuum_card_example.png)
 
@@ -10,7 +9,7 @@ description: A card that allows you to view your Xiaomi Vacuum in Card form
 
 This card uses these components that you also need to install:
 
-* [component.Xiaomi Mi Vacuum](https://www.home-assistant.io/components/vacuum.xiaomi_miio/)
+* [Xiaomi Mi Vacuum platform](https://www.home-assistant.io/components/vacuum.xiaomi_miio/)
 
 {% endhint %}
 
