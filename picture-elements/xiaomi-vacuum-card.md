@@ -1,8 +1,6 @@
----
-description: A card that allows you to view your Xiaomi Vacuum in Card form
----
-
 # Xiaomi Vacuum Card
+
+_A card that allows you to view your Xiaomi Vacuum in Card form._
 
 ![](../.gitbook/assets/vacuum_card_example.png)
 

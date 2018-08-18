@@ -1,9 +1,7 @@
----
-description: >-
-  A great way to display your Fitbit stats
----
-
 # Fitbit Card
+
+_A great way to display your Fitbit stats_
+
 ![](../.gitbook/assets/fitbit-card.png)
 
 This card requires you to install and setup the following components:

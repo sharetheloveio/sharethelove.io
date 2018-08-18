@@ -1,10 +1,6 @@
----
-description: Floorplan card using the picture-elements card
----
-
 # 3D Floorplan Card
-This simple card displays a 3D floorplan and overlays black boxes to create the effect of lights turning on and off in the selected rooms.
 
+_This simple card displays a 3D floorplan and overlays black boxes to create the effect of lights turning on and off in the selected rooms._
 
 ![](../.gitbook/assets/floorplan.gif)
 
