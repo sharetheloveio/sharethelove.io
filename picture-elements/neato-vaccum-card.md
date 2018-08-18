@@ -1,10 +1,6 @@
----
-description: >-
-  Here is a simple yet cool way to display your cleaning map as a card in
-  homeassistant.
----
-
 # Neato Vaccum Card
+
+_Here is a simple yet cool way to display your cleaning map as a card in homeassistant._
 
 {% hint style="info" %}
 This requires you to have the following component setup
