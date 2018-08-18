@@ -16,73 +16,89 @@ This requires you to have the following component setup
 ![](../.gitbook/assets/image%20%281%29.png)
 
 ```yaml
-  - type: picture-elements
-    image: /api/camera_proxy/camera.neato_cleaning_map?token=*
-    elements:
-    - type: state-icon
-      tap_action: toggle
-      entity: vacuum.neato
-      service: vacuum.locate
-      style:
-        top: 5%
-        left: 95%
-        "--paper-item-icon-color": rgb(115, 122, 130)
+- type: picture-elements
+  image: /local/banners/empty.png
+  elements:
+  - type: state-icon
+    tap_action: toggle
+    entity: vacuum.neato
+    style:
+      top: 5%
+      left: 95%
+      "--paper-item-icon-color": rgb(115, 122, 130)
+      z-index: 1
 
-    - type: state-icon
-      tap_action: toggle
-      entity: switch.neato_schedule
-      style:
-        top: 15%
-        left: 95%
-        "--paper-item-icon-color": rgb(115, 122, 130)
+  - type: state-icon
+    tap_action: toggle
+    entity: switch.neato_schedule
+    style:
+      top: 15%
+      left: 95%
+      "--paper-item-icon-color": rgb(115, 122, 130)
+      z-index: 1
 
-    - type: state-label
-      entity: sensor.neato_battery
-      style:
-        top: 70%
-        left: 0%
-        color: rgb(115, 122, 130)
-        transform: none
-        pointer-events: none
-        text-shadow: 1px 1px black
-        font-family: Trebuchet MS
-        font-size: 90%
-        font-weight: bold
-        border-left-style: solid
-        border-color: DeepSkyBlue
-        background-color: rgb(54, 65, 78)
-        
-    - type: state-label
-      entity: sensor.neato_status
-      style:
-        top: 80%
-        left: 0%
-        color: rgb(115, 122, 130)
-        transform: none
-        pointer-events: none
-        text-shadow: 1px 1px black
-        font-family: Trebuchet MS
-        font-size: 90%
-        font-weight: bold
-        border-left-style: solid
-        border-color: Tomato
-        background-color: rgb(54, 65, 78)
+  - type: state-label
+    entity: sensor.neato_battery
+    style:
+      top: 70%
+      left: 0%
+      color: rgb(115, 122, 130)
+      transform: none
+      pointer-events: none
+      text-shadow: 1px 1px black
+      font-family: Trebuchet MS
+      font-size: 90%
+      font-weight: bold
+      border-left-style: solid
+      border-color: DeepSkyBlue
+      background-color: rgb(54, 65, 78)
+      z-index: 1
 
-    - type: state-label
-      entity: sensor.neato_area
-      style:
-        top: 90%
-        left: 0%
-        color: rgb(115, 122, 130)
-        transform: none
-        pointer-events: none
-        text-shadow: 1px 1px black
-        font-family: Trebuchet MS
-        font-size: 90%
-        font-weight: bold
-        border-left-style: solid
-        border-color: GreenYellow
-        background-color: rgb(54, 65, 78)
+  - type: image
+    entity: camera.neato_cleaning_map
+    camera_image: camera.neato_cleaning_map
+    tap_action: none
+    style:
+      transform: none
+      top: 0%
+      left: 0%
+      width: 100%
+      height: 100%
+      z-index: 0
+
+  - type: state-label
+    entity: sensor.neato_status
+    style:
+      top: 80%
+      left: 0%
+      color: rgb(115, 122, 130)
+      transform: none
+      pointer-events: none
+      text-shadow: 1px 1px black
+      font-family: Trebuchet MS
+      font-size: 90%
+      font-weight: bold
+      border-left-style: solid
+      border-color: Tomato
+      background-color: rgb(54, 65, 78)
+      z-index: 1
+
+  - type: state-label
+    entity: sensor.neato_area
+    style:
+      top: 90%
+      left: 0%
+      color: rgb(115, 122, 130)
+      transform: none
+      pointer-events: none
+      text-shadow: 1px 1px black
+      font-family: Trebuchet MS
+      font-size: 90%
+      font-weight: bold
+      border-left-style: solid
+      border-color: GreenYellow
+      background-color: rgb(54, 65, 78)
+      z-index: 1
 ```
 
 Here is the package for the sensors
