@@ -124,7 +124,8 @@ Change neato on the states for your robots name in the template sensors
       battery_neato:
         friendly_name: "Battery: neato"
         value_template: "{{ states.vacuum.neato.attributes.battery_level }}"
-        unit_of_measurement: '%'```
+        unit_of_measurement: '%'
+```
 
 and here is the empty placeholder image
 
