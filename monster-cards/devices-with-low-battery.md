@@ -3,9 +3,7 @@ description: >-
   Here is a simple way to get a heads up when your battery powered sensors get close to dying.
 ---
 
-# Low Battery Things
-
-
+# Devices with low battery state
 
 {% hint style="info" %}
 This requires you to have the following custom card setup
@@ -14,7 +12,7 @@ This requires you to have the following custom card setup
 
 {% endhint %}
 
-![](https://i.imgur.com/E6JxeKk.png)
+![Sample image](../.gitbook/assets/monster-low-battery.png)
 
 ```yaml
       - type: custom:monster-card
@@ -31,4 +29,3 @@ This requires you to have the following custom card setup
             - attributes:
                 battery_level: '< 25'
 ```
-

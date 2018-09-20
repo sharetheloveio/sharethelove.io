@@ -3,6 +3,7 @@
 * [Welcome!](README.md)
 
 * # Monster cards
+  * [Devices with low battery state](monster-cards/devices-with-low-battery.md)
   * [Things That Are Probably Broken Card](monster-cards/broken-card.md)
 
 * # Picture-elements cards
