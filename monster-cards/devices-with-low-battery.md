@@ -12,7 +12,7 @@ This requires you to have the following custom card setup
 
 {% endhint %}
 
-![](https://i.imgur.com/E6JxeKk.png)
+![Sample image](../.gitbook/assets/monster-low-battery.png)
 
 ```yaml
       - type: custom:monster-card
