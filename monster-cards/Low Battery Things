@@ -5,6 +5,8 @@ description: >-
 
 # Low Battery Things
 
+
+
 {% hint style="info" %}
 This requires you to have the following custom card setup
 
@@ -12,20 +14,21 @@ This requires you to have the following custom card setup
 
 {% endhint %}
 
-
+![](https://i.imgur.com/E6JxeKk.png)
 
 ```yaml
-- type: custom:monster-card
-  show_empty: false
-  card:
-    type: entities
-    title: Battery Needs Replaced
-  filter:
-    include:
-      - domain: zwave
-        options:
-          secondary_info: entity-id
-        attributes:
-          battery_level: '< 25'
+      - type: custom:monster-card
+        show_empty: false
+        card:
+          type: glance
+          title: Low Battery Devices
+        filter:
+          include:
+            - entity_id: "*battery_level*"
+              state: '< 25'
+            - attributes:
+                battery: '< 25'
+            - attributes:
+                battery_level: '< 25'
 ```
 
