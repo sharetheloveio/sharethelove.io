@@ -40,8 +40,9 @@ views:
               left: 15px
               transform: none
           - type: custom:state-attribute-element
-            entity: sensor.tautulli__ludeeus
-            attribute: magic_title
+            entity: sensor.tautulli
+            attribute: 'Ludeeus'
+            sub_attribute: 'magic_title'
             show_empty: false
             style:
               top: 20%
