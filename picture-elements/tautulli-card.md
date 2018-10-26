@@ -58,7 +58,7 @@ views:
               transform: none
           - type: custom:state-attribute-element
             entity: sensor.tautulli
-            attribute: Movie
+            attribute: "Top Movie"
             show_empty: true
             prefix: "<b style='color: orange; margin-right: 5px'>Most played movie: </b>"
             style:
@@ -68,7 +68,7 @@ views:
               transform: none
           - type: custom:state-attribute-element
             entity: sensor.tautulli
-            attribute: TV
+            attribute: "Top TV Show"
             show_empty: true
             prefix: "<b style='color: orange; margin-right: 11px'>Most played show: </b>"
             style:
@@ -78,7 +78,7 @@ views:
               transform: none
           - type: custom:state-attribute-element
             entity: sensor.tautulli
-            attribute: User
+            attribute: "Top User"
             show_empty: true
             prefix: "<b style='color: orange; margin-right: 20px'>Most active user: </b>"
             style:
