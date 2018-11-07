@@ -23,8 +23,9 @@
 
 ### Custom cards resources
 
-* [Cards by @ciotlosm](https://github.com/ciotlosm/custom-lovelace)
+* [awesome-home-assistant](https://www.awesome-ha.com/#custom-lovelace-ui-cards)
 * [custom_cards (Github org.)](https://github.com/custom-cards)
+* [Cards by @ciotlosm](https://github.com/ciotlosm/custom-lovelace)
 
 ### Tools
 
