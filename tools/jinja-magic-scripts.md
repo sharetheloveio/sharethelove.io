@@ -30,7 +30,8 @@ views:
     cards:
 {%- set domains = states | map(attribute='domain') |list | unique | list %}
 {%- for item in states['camera'] %}
-      - type: picture-entity
+      - id: {{ item.entity_id.replace('.', '_') }}
+        type: picture-entity      
         title: {{ item.name }}
         entity: {{ item.entity_id }}
         camera_image: {{ item.entity_id }}
