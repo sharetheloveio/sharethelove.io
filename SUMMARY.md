@@ -13,7 +13,6 @@
   * [Kodi Remote Card](picture-elements/kodiremote-card.md)
   * [Mi Flora Plant Card](picture-elements/plants-card.md)
   * [Neato Vaccum Card](picture-elements/neato-vaccum-card.md)
-  * [Tautulli card](picture-elements/tautulli-card.md)
   * [Temperature glance](picture-elements/temperature-glance.md)
   * [Untappd Card](picture-elements/untappd-card.md)
   * [Xiaomi Vacuum Card](picture-elements/xiaomi-vacuum-card.md)
