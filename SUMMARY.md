@@ -18,8 +18,8 @@
   * [Untappd Card](picture-elements/untappd-card.md)
   * [Xiaomi Vacuum Card](picture-elements/xiaomi-vacuum-card.md)
 
-* # Vertical Stack cards
-  * [AV Remote Card](vertical-stack/av-remote.md)
+* # Glance cards
+  * [AV Remote Card](glance/av-remote.md)
 
 * # Custom Resources
   * [Cards](custom/cards.md)

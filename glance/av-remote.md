@@ -1,6 +1,6 @@
 ---
 description: >-
-  This card utilizes the built-in vertical stack lovelace card to create a remote that fires commands from your harmony hub.
+  This card utilizes the built-in glance lovelace card to create a remote that fires commands from your harmony hub.
 ---
 
 ![](../.gitbook/assets/av-remote.png)
@@ -35,7 +35,7 @@ Change the icons and device codes to your own.
 {% code-tabs %}
 {% code-tabs-item title="ui-lovelace.yaml" %}
 ```yaml
-      - type: vertical-stack
+      - type: glance
         cards: !include remotes/lg.yaml
 ```
 {% endcode-tabs-item %}
