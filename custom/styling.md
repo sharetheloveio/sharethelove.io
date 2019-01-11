@@ -6,7 +6,8 @@ description: >-
 # Lovelace Styling
 
 {% hint style="warning" %}
-Use all at your own risk
+Use all at your own risk.
+{% endhint %}
 
 * [compact-custom-header](https://github.com/maykar/compact-custom-header) by [@maykar](https://github.com/maykar)
 * [hass-fontawesome](https://github.com/thomasloven/hass-fontawesome) by [@thomasloven](https://github.com/thomasloven)

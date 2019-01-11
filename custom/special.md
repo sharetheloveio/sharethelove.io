@@ -6,7 +6,8 @@ description: >-
 # Lovelace Special
 
 {% hint style="warning" %}
-Use all at your own risk
+Use all at your own risk.
+{% endhint %}
 
 * [popup-card](https://github.com/thomasloven/lovelace-popup-card) by [@thomasloven](https://github.com/thomasloven)
 * [lovelace-player](https://github.com/thomasloven/lovelace-player) by [@thomasloven](https://github.com/thomasloven)

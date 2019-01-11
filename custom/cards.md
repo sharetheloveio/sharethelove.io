@@ -6,7 +6,8 @@ description: >-
 # Lovelace Cards
 
 {% hint style="warning" %}
-Use all at your own risk
+Use all at your own risk.
+{% endhint %}
 
 * [list-card](https://github.com/custom-cards/list-card) by [@iantrich](https://github.com/iantrich)
 * [flex-table-card](https://github.com/custom-cards/flex-table-card) by [@daringer](https://github.com/custom-cards/flex-table-card)

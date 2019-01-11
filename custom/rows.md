@@ -6,7 +6,8 @@ description: >-
 # Lovelace Rows
 
 {% hint style="warning" %}
-Use all at your own risk
+Use all at your own risk.
+{% endhint %}
 
 * [button-entity-row](https://github.com/custom-cards/button-entity-row) by [@paulbdavis](https://github.com/paulbdavis)
 * [light-entity-row](https://github.com/custom-cards/light-entity-row) by [@paulbdavis](https://github.com/paulbdavis)

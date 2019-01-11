@@ -6,7 +6,8 @@ description: >-
 # Lovelace Tools
 
 {% hint style="warning" %}
-Use all at your own risk
+Use all at your own risk.
+{% endhint %}
 
 * [tracker-card](https://github.com/custom-cards/tracker-card) by [@ludeeus](https://github.com/ludeeus)
 * [plan-coordinates](https://github.com/ciotlosm/custom-lovelace/tree/master/plan-coordinates) by [@ciotlosm](https://github.com/ciotlosm)
