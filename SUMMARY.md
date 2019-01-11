@@ -26,4 +26,7 @@
   * [Elements](custom/elements.md)
   * [Special](custom/special.md)
   * [Styling](custom/styling.md)
-  * [Tools](custom/tools.md)
+
+* # Tools
+  * [Jinja Magic Scripts](tools/jinja-magic-scripts.md)
+  * [Externaly hosted tools](tools/tools.md)
