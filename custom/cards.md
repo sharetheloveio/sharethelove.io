@@ -23,7 +23,6 @@ Use all at your own risk.
 * [entity-attributes-card](https://github.com/ciotlosm/custom-lovelace/tree/master/entity-attributes-card) by [@ciotlosm](https://github.com/ciotlosm)
 * [monster-card](https://github.com/ciotlosm/custom-lovelace/tree/master/monster-card) by [@ciotlosm](https://github.com/ciotlosm)
 * [useful-markdown-card](https://github.com/thomasloven/lovelace-useful-markdown-card) by [@thomasloven](https://github.com/thomasloven)
-* [state-switch](https://github.com/thomasloven/lovelace-state-switch) by [@thoamsloven](https://github.com/thomasloven)
 * [button-card](https://github.com/kuuji/button-card) by [@kuuji](https://github.com/kuuji)
 * [mini-graph-card](https://github.com/kalkih) by [@kalkih](https://github.com/kalkih/mini-graph-card)
 * [mini-media-card](https://github.com/kalkih/mini-media-player) by [@kalkih](https://github.com/kalkih)
