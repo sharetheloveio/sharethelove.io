@@ -1,10 +1,12 @@
 ---
-description: >-
+description: >
   Jinja2 script to help you create/migrate the existing config/setup to lovelace automagically.
 ---
 
 {% hint style="info" %}
+
 The following is a jinja2 script that you need to run in the Developer Tools -> Templates (template editor), then copy and paste the output into your `ui-lovelace.yaml` file. Copying the following jinja code/script directly into the `ui-lovelace.yaml` file will give you severe headaches and possibly long-term Migraines. 
+
 {% endhint %}
 
 # Code to auto-generate Lovelace Script
@@ -28,7 +30,8 @@ views:
     cards:
 {%- set domains = states | map(attribute='domain') |list | unique | list %}
 {%- for item in states['camera'] %}
-      - type: picture-entity
+      - id: {{ item.entity_id.replace('.', '_') }}
+        type: picture-entity      
         title: {{ item.name }}
         entity: {{ item.entity_id }}
         camera_image: {{ item.entity_id }}

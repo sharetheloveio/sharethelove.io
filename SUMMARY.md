@@ -2,17 +2,29 @@
 
 * [Welcome!](README.md)
 
-### Cards
+* # Monster cards
+  * [Devices with low battery state](monster-cards/devices-with-low-battery.md)
+  * [Things That Are Probably Broken Card](monster-cards/broken-card.md)
 
-* [Greeter Card](cards/greeter-card.md)
-* [Tautulli card](cards/tautulli-card.md)
-* [Neato Vaccum Card](cards/neato-vaccum-card.md)
-* [Temperature glance](cards/temperature-glance.md)
-* [Xiaomi Vacuum Card](cards/xiaomi-vacuum-card.md)
-* [Mi Flora Plant Card](cards/plants-card.md)
-* [Fitbit Card](cards/fitbit-card.md)
-* [3D Floorplan Card](cards/3d-floorplan.md)
+* # Picture-elements cards
+  * [3D Floorplan Card](picture-elements/3d-floorplan.md)
+  * [Fitbit Card](picture-elements/fitbit-card.md)
+  * [Greeter Card](picture-elements/greeter-card.md)
+  * [Kodi Remote Card](picture-elements/kodiremote-card.md)
+  * [Mi Flora Plant Card](picture-elements/plants-card.md)
+  * [Neato Vaccum Card](picture-elements/neato-vaccum-card.md)
+  * [Tautulli card](picture-elements/tautulli-card.md)
+  * [Temperature glance](picture-elements/temperature-glance.md)
+  * [Untappd Card](picture-elements/untappd-card.md)
+  * [Xiaomi Vacuum Card](picture-elements/xiaomi-vacuum-card.md)
 
-### Tools
+* # Vertical Stack cards
+  * [AV Remote Card](vertical-stack/av-remote.md)
 
-* [Jinja Magic Scripts](tools/jinja-magic-scripts.md)
+* # Custom Resources
+  * [Cards](custom/cards.md)
+  * [Rows](custom/rows.md)
+  * [Elements](custom/elements.md)
+  * [Special](custom/special.md)
+  * [Styling](custom/styling.md)
+  * [Tools](custom/tools.md)

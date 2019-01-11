@@ -1,10 +1,7 @@
 ---
-description: Floorplan card using the picture-elements card
+description: >-
+  This simple card displays a 3D floorplan and overlays black boxes to create the effect of lights turning on and off in the selected rooms.
 ---
-
-# 3D Floorplan Card
-This simple card displays a 3D floorplan and overlays black boxes to create the effect of lights turning on and off in the selected rooms.
-
 
 ![](../.gitbook/assets/floorplan.gif)
 
@@ -65,7 +62,7 @@ Change the pictures and sensors to your own.
 {% endcode-tabs %}
 
 {% hint style="info" %}
-The 3D floorplan was made using the free website https://www.sweethome3d.com
+The 3D floorplan was made using the free website http://www.sweethome3d.com
 
 The black boxes were cut out using the free software from https://www.gimp.org
 {% endhint %}
