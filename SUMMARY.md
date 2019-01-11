@@ -21,12 +21,10 @@
 * # Vertical Stack cards
   * [AV Remote Card](vertical-stack/av-remote.md)
 
-### Custom cards resources
-
-* [awesome-home-assistant](https://www.awesome-ha.com/#custom-lovelace-ui-cards)
-* [custom_cards (Github org.)](https://github.com/custom-cards)
-* [Cards by @ciotlosm](https://github.com/ciotlosm/custom-lovelace)
-
-### Tools
-
-* [Jinja Magic Scripts](tools/jinja-magic-scripts.md)
+* # Custom Resources
+  * [Cards](custom/cards.md)
+  * [Rows](custom/rows.md)
+  * [Elements](custom/elements.md)
+  * [Special](custom/special.md)
+  * [Styling](custom/styling.md)
+  * [Tools](custom/tools.md)
