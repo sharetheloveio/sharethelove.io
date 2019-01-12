@@ -1,7 +1,3 @@
----
-description: Lovelace elements
----
-
 # Lovelace Elements
 
 {% hint style="warning" %}
