@@ -1,6 +1,5 @@
 ---
-description: >-
-  Lovelace styling
+description: Lovelace styling
 ---
 
 # Lovelace Styling

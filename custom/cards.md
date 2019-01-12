@@ -1,6 +1,5 @@
 ---
-description: >-
-  Lovelace cards
+description: Lovelace cards
 ---
 
 # Lovelace Cards

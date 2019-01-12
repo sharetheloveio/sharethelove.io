@@ -1,6 +1,5 @@
 ---
-description: >-
-  Lovelace special
+description: Lovelace special
 ---
 
 # Lovelace Special

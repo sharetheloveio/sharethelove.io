@@ -1,6 +1,5 @@
 ---
-description: >-
-  Lovelace rows
+description: Lovelace rows
 ---
 
 # Lovelace Rows
