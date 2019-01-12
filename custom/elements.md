@@ -1,6 +1,5 @@
 ---
-description: >-
-  Lovelace elements
+description: Lovelace elements
 ---
 
 # Lovelace Elements
