@@ -33,3 +33,4 @@ Use all at your own risk.
 * [calendar-card](https://github.com/ljmerza/calendar-card) by [@ljmerza](https://github.com/ljmerza)
 * [bar-card](https://github.com/Gluwc/bar-card) by [@Gluwc](https://github.com/Gluwc)
 * [dual-gauge-card](https://github.com/Rocka84/dual-gauge-card) by [@Rocka84](https://github.com/Rocka84)
+* [tiles-card](https://github.com/rodrigofragadf/lovelace-cards/tree/master/tiles-card) by [@rodrigofragadf](https://github.com/rodrigofragadf)
