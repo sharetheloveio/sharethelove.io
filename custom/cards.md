@@ -36,3 +36,5 @@ Use all at your own risk.
 * [tiles-card](https://github.com/rodrigofragadf/lovelace-cards/tree/master/tiles-card) by [@rodrigofragadf](https://github.com/rodrigofragadf)
 * [pc-card](https://github.com/custom-cards/pc-card) by [@iantrich](https://github.com/iantrich) 💵 Personal Capital Lovelace Card
 * [power-wheel-card](https://github.com/gurbyz/custom-cards-lovelace/tree/master/power-wheel-card) by [@gurbyz](https://github.com/gurbyz)
+* [roku-card](https://github.com/custom-cards/roku-card) by [@iantrich](https://github.com/iantrich) 📺 Roku Remote Card
+* [dual-thermostat](https://github.com/enriqg9/dual-thermostat) by [@enriqg9](https://github.com/enriqg9) Dual Thermostat Lovelace Card
