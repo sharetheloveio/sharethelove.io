@@ -13,4 +13,4 @@ Use all at your own risk.
 * [fold-entity-row](https://github.com/thomasloven/lovelace-fold-entity-row) by [@thomasloven](https://github.com/thomasloven)
 * [slider-entity-row](https://github.com/thomasloven/lovelace-slider-entity-row) by [@thomasloven](https://github.com/thomasloven)
 * [toggle-lock-entity-row](https://github.com/thomasloven/lovelace-toggle-lock-entity-row) by [@thomasloven](https://github.com/thomasloven)
-* [time-input-row](https://github.com/thomasloven/lovelace-toggle-lock-entity-row) by [@thomasloven](https://github.com/thomasloven)
+* [time-input-row](https://github.com/thomasloven/lovelace-time-input-row) by [@thomasloven](https://github.com/thomasloven)
