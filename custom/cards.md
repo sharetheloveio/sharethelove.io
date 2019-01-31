@@ -39,3 +39,4 @@ Use all at your own risk.
 * [roku-card](https://github.com/custom-cards/roku-card) by [@iantrich](https://github.com/iantrich) 📺 Roku Remote Card
 * [dual-thermostat](https://github.com/enriqg9/dual-thermostat) by [@enriqg9](https://github.com/enriqg9) Dual Thermostat Lovelace Card
 * [check-button-card](https://github.com/Gluwc/check-button-card) by [@Gluwc](https://github.com/Gluwc) A button that tracks when it is last pressed using MQTT auto discovery
+* [simple-thermostat](https://github.com/nervetattoo/simple-thermostat) by [@nervetattoo](https://github.com/nervetattoo) A different take on the thermostat card
