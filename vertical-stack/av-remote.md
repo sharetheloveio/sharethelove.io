@@ -1,6 +1,6 @@
 ---
 description: >-
-  This card utilizes the built-in vertical stack lovelace card to create a remote that fires commands from your harmony hub.
+  This card utilizes the built-in glance lovelace card to create a remote that fires commands from your harmony hub.
 ---
 
 ![](../.gitbook/assets/av-remote.png)
@@ -32,10 +32,17 @@ Finally, switch out the entity for some dormant binary sensor in your system. In
 Change the icons and device codes to your own.
 {% endhint %}
 
+
+
+{% hint style="info" %}
+If you are still able to "Configure UI" you can drop the code into a new card. If you have taken full manual control, you can !include the remote file. (shown below) 
+{% endhint %}
+
 {% code-tabs %}
 {% code-tabs-item title="ui-lovelace.yaml" %}
 ```yaml
-      - type: vertical-stack
+# if you have taken manual control
+      - type: glance
         cards: !include remotes/lg.yaml
 ```
 {% endcode-tabs-item %}
@@ -45,203 +52,213 @@ Change the icons and device codes to your own.
 {% code-tabs-item title="remotes/lg.yaml" %}
 ```yaml
 
-- type: glance
-  title: LG Remote
-  show_state: false
-  entities:
+type: glance
+title: LG Remote
+show_state: false
+entities:
 
   # power row
   - entity: binary_sensor.front_door
     icon: mdi:power
-    name:
-    tap_action: call-service
-    service: media_player.toggle
-    service_data:
-      entity_id: media_player.lg_tv
+    name: ' ' 
+    tap_action:
+      action: call-service
+      service: media_player.toggle
+      service_data:
+        entity_id: media_player.lg_tv
   - entity: binary_sensor.front_door
     icon: mdi:web
-    name:
-    tap_action: call-service
-    service: media_player.select_source
-    service_data:
-      entity_id: media_player.lg_tv
+    name: ' ' 
+    tap_action:
+      action: call-service
+      service: media_player.select_source
+      service_data:
+        entity_id: media_player.lg_tv
       source: "Web Browser"
   - entity: binary_sensor.front_door
     icon: mdi:netflix
-    name:
-    tap_action: call-service
-    service: media_player.select_source
-    service_data:
-      entity_id: media_player.lg_tv
-      source: "Netflix"
+    name: ' ' 
+    tap_action:
+      action: call-service
+      service: media_player.select_source
+      service_data:
+        entity_id: media_player.lg_tv
+        source: "Netflix"
   - entity: binary_sensor.front_door
     icon: mdi:television-box
-    name:
-    tap_action: call-service
-    service: media_player.select_source
-    service_data:
-      entity_id: media_player.lg_tv
-      source: "Tivo"
+    name: ' ' 
+    tap_action:
+      action: call-service
+      service: media_player.select_source
+      service_data:
+        entity_id: media_player.lg_tv
+        source: "Tivo"
   - entity: binary_sensor.front_door
     icon: mdi:playstation
-    name:
-    tap_action: call-service
-    service: media_player.select_source
-    service_data:
-      entity_id: media_player.lg_tv
-      source: "Onkyo"
+    name: ' ' 
+    tap_action:
+      action: call-service
+      service: media_player.select_source
+      service_data:
+        entity_id: media_player.lg_tv
+        source: "Onkyo"
 
 
   # top row
   - entity: binary_sensor.front_door
     icon: mdi:volume-off
-    name:
-    tap_action: call-service
-    service: remote.send_command
-    service_data:
-      "entity_id": "remote.joehubz"
-      "device": "53209424"
-      "command": "Mute"
+    name: ' ' 
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        "entity_id": "remote.joehubz"
+        "device": "53209424"
+        "command": "Mute"
   - entity: binary_sensor.front_door
-    icon: mdi:dots-horizontal-circle
-    name:
-    tap_action: call-service
-    service: remote.send_command
-    service_data:
-      "entity_id": "remote.joehubz"
-      "device": "50336544"
-      "command": "TiVo"
+    icon: mdi:home
+    name: ' ' 
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        "entity_id": "remote.joehubz"
+        "device": "59364597"
+        "command": "Home"
   - entity: binary_sensor.front_door
     icon: mdi:chevron-up-box-outline
-    name:
-    tap_action: call-service
-    service: remote.send_command
-    service_data:
-      "entity_id": "remote.joehubz"
-      "device": "50336544"
-      "command": "DirectionUp"
+    name: ' ' 
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        "entity_id": "remote.joehubz"
+        "device": "53209424"
+        "command": "DirectionUp"
   - entity: binary_sensor.front_door
     icon: mdi:play-pause
-    name:
-    tap_action: call-service
-    service: remote.send_command
-    service_data:
-      "entity_id": "remote.joehubz"
-      "device": "50336544"
-      "command": "Pause"
-  #          - entity: binary_sensor.front_door
-  #            icon: mdi:square-small
-  #            name:
-  #            tap_action: call-service
+    name: ' ' 
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        "entity_id": "remote.joehubz"
+        "device": "53209424"
+        "command": "Pause"
   - entity: binary_sensor.front_door
-    icon: mdi:television-guide
-    name:
-    tap_action: call-service
-    service: remote.send_command
-    service_data:
-      "entity_id": "remote.joehubz"
-      "device": "50336544"
-      "command": "Guide"
+    icon: mdi:stop
+    name: ' '
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        "entity_id": "remote.joehubz"
+        "device": "59364597"
+        "command": "Stop"
 
 
     # middle row
   - entity: binary_sensor.front_door
     icon: mdi:volume-plus
-    name:
-    tap_action: call-service
-    service: media_player.volume_up
-    service_data:
-      entity_id: media_player.lg_tv
+    name: ' ' 
+    tap_action:
+      action: call-service
+      service: media_player.volume_up
+      service_data:
+        entity_id: media_player.lg_tv
   - entity: binary_sensor.front_door
     icon: mdi:chevron-left-box-outline
-    name:
-    tap_action: call-service
-    service: remote.send_command
-    service_data:
-      "entity_id": "remote.joehubz"
-      "device": "50336544"
-      "command": "DirectionLeft"
+    name: ' ' 
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        "entity_id": "remote.joehubz"
+        "device": "53209424"
+        "command": "DirectionLeft"
   - entity: binary_sensor.front_door
     icon: mdi:checkbox-blank-circle-outline
-    name:
-    tap_action: call-service
-    service: remote.send_command
-    service_data:
-      "entity_id": "remote.joehubz"
-      "device": "50336544"
-      "command": "Select"
+    name: ' ' 
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        "entity_id": "remote.joehubz"
+        "device": "53209424"
+        "command": "OK"
   - entity: binary_sensor.front_door
     icon: mdi:chevron-right-box-outline
-    name:
-    tap_action: call-service
-    service: remote.send_command
-    service_data:
-      "entity_id": "remote.joehubz"
-      "device": "50336544"
-      "command": "DirectionRight"
+    name: ' ' 
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        "entity_id": "remote.joehubz"
+        "device": "53209424"
+        "command": "DirectionRight"
   - entity: binary_sensor.front_door
-    icon: mdi:arrow-up-box
-    name:
-    tap_action: call-service
-    service: remote.send_command
-    service_data:
-      "entity_id": "remote.joehubz"
-      "device": "50336544"
-      "command": "ChannelUp"
+    icon: mdi:rewind
+    name: ' '
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        entity_id: remote.joehubz
+        device: '59364597'
+        command: Rewind
 
 
   # bottom row
   - entity: binary_sensor.front_door
     icon: mdi:volume-minus
-    name:
-    tap_action: call-service
-    service: media_player.volume_down
-    service_data:
-      entity_id: media_player.lg_tv
+    name: ' ' 
+    tap_action:
+      action: call-service
+      service: media_player.volume_down
+      service_data:
+        entity_id: media_player.lg_tv
   - entity: binary_sensor.front_door
-    icon: mdi:keyboard-backspace
-    name:
-    tap_action: call-service
-    service: remote.send_command
-    service_data:
-      "entity_id": "remote.joehubz"
-      "device": "50336544"
-      "command": "Back"
+    icon: mdi:undo
+    name: ' '
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        entity_id: "remote.joehubz"
+        device: "59364597"
+        command: "Back"
   - entity: binary_sensor.front_door
     icon: mdi:chevron-down-box-outline
-    name:
-    tap_action: call-service
-    service: remote.send_command
-    service_data:
-      "entity_id": "remote.joehubz"
-      "device": "50336544"
-      "command": "DirectionDown"
+    name: ' ' 
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        "entity_id": "remote.joehubz"
+        "device": "53209424"
+        "command": "DirectionDown"
   - entity: binary_sensor.front_door
-    icon: mdi:fast-forward-outline
-    name:
-    tap_action: call-service
-    service: remote.send_command
-    service_data:
-      "entity_id": "remote.joehubz"
-      "device": "50336544"
-      "command": "Advance"
+    icon: mdi:redo
+    name: ' '
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        "entity_id": "remote.joehubz"
+        "device": "59364597"
+        "command": "SkipForward"
   - entity: binary_sensor.front_door
-    icon: mdi:arrow-down-box
-    name:
-    tap_action: call-service
-    service: remote.send_command
-    service_data:
-      "entity_id": "remote.joehubz"
-      "device": "50336544"
-      "command": "ChannelDown"
+    icon: mdi:fast-forward
+    name: ' '
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        "entity_id": "remote.joehubz"
+        "device": "59364597"
+        "command": "FastForward"
 
 
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
-
-{% hint style="info" %}
-The 3D floorplan was made using the free website http://www.sweethome3d.com
-
-The black boxes were cut out using the free software from https://www.gimp.org
-{% endhint %}
