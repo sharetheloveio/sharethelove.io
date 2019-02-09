@@ -21,43 +21,63 @@ This card uses these components that you also need to install:
     elements:
     - type: icon
       icon: mdi:bell-ring
-      tap_action: call-service
-      entity: vacuum.xiaomi_vacuum_cleaner
-      service: vacuum.locate
+      tap_action:
+        action: call-service
+        service: vacuum.locate
+        service_data:
+          entity_id: vacuum.xiaomi_vacuum_cleaner
       style:
         top: 80%
         left: 80%
         "--paper-item-icon-color": rgb(115, 122, 130)
-
+        
     - type: icon
-      tap_action: call-service
       icon: mdi:home
-      entity: vacuum.xiaomi_vacuum_cleaner
-      service: vacuum.return_to_base
+      tap_action:
+        action: call-service
+        service: vacuum.return_to_base
+        service_data:
+          entity_id: vacuum.xiaomi_vacuum_cleaner
       style:
         top: 80%
-        left: 60%
+        left: 65%
         "--paper-item-icon-color": rgb(115, 122, 130)
-
+        
     - type: icon
-      icon: mdi:play-pause
-      tap_action: call-service
-      entity: vacuum.xiaomi_vacuum_cleaner
-      service: vacuum.start_pause
+      icon: mdi:play
+      tap_action:
+        action: call-service
+        service: vacuum.start
+        service_data:
+          entity_id: vacuum.xiaomi_vacuum_cleaner
       style:
         top: 80%
-        left: 40%
+        left: 50%
         "--paper-item-icon-color": rgb(115, 122, 130)
-
+        
+    - type: icon
+      icon: mdi:pause
+      tap_action:
+        action: call-service
+        service: vacuum.pause
+        service_data:
+          entity_id: vacuum.xiaomi_vacuum_cleaner
+      style:
+        top: 80%
+        left: 35%
+        "--paper-item-icon-color": rgb(115, 122, 130)
+        
     - type: icon
       icon: mdi:stop
-      tap_action: call-service
-      entity: vacuum.xiaomi_vacuum_cleaner
-      service: vacuum.stop
+      tap_action:
+        action: call-service
+        service: vacuum.stop
+        service_data:
+          entity_id: vacuum.xiaomi_vacuum_cleaner
       style:
         top: 80%
         left: 20%
-        "--paper-item-icon-color": rgb(115, 122, 130)
+        "--paper-item-icon-color": rgb(155, 122, 130)
 
     - type: state-label
       entity: sensor.vacuum_status
