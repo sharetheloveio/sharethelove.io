@@ -40,3 +40,6 @@ Use all at your own risk.
 * [dual-thermostat](https://github.com/enriqg9/dual-thermostat) by [@enriqg9](https://github.com/enriqg9) Dual Thermostat Lovelace Card
 * [check-button-card](https://github.com/Gluwc/check-button-card) by [@Gluwc](https://github.com/Gluwc) A button that tracks when it is last pressed using MQTT auto discovery
 * [simple-thermostat](https://github.com/nervetattoo/simple-thermostat) by [@nervetattoo](https://github.com/nervetattoo) A different take on the thermostat card
+* [light-entity-card](https://github.com/ljmerza/light-entity-card) by [@ljmerza](https://github.com/ljmerza) Control any light entity
+* [github-card](https://github.com/ljmerza/github-card) by [@ljmerza](https://github.com/ljmerza)
+* [waze-card](https://github.com/ljmerza/waze-card) by [@ljmerza](https://github.com/ljmerza) Waze routes data
