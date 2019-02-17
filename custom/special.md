@@ -14,3 +14,5 @@ Use all at your own risk.
 * [state-switch](https://github.com/thomasloven/lovelace-state-switch) by [@thomasloven](https://github.com/thomasloven)
 * [fullykiosk](https://github.com/thomasloven/lovelace-fullykiosk) by [@thomasloven](https://github.com/thomasloven)
 * [kiosk](https://gist.github.com/ciotlosm/1f09b330aa5bd5ea87b59f33609cc931) by [@ciotlosm](https://github.com/ciotlosm)
+* [lovelace-auto-entities](https://github.com/thomasloven/lovelace-auto-entities) by [@thomasloven](https://github.com/thomasloven) automatically populate the entities: list of a card or entity-row with entities matching a filter
+* [lovelace-browser-commander](https://github.com/thomasloven/lovelace-browser-commander) by [@thomasloven](https://github.com/thomasloven) control any browser viewing your lovelace frontend from Home Assistant
