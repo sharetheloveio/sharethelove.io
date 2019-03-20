@@ -43,3 +43,4 @@ Use all at your own risk.
 * [light-entity-card](https://github.com/ljmerza/light-entity-card) by [@ljmerza](https://github.com/ljmerza) Control any light entity
 * [github-card](https://github.com/ljmerza/github-card) by [@ljmerza](https://github.com/ljmerza)
 * [waze-card](https://github.com/ljmerza/waze-card) by [@ljmerza](https://github.com/ljmerza) Waze routes data
+* [spotify-card](https://github.com/custom-cards/spotify-card) by [@fondberg](https://github.com/fondberg) Spotify Lovelace Card
