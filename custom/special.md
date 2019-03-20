@@ -16,3 +16,4 @@ Use all at your own risk.
 * [kiosk](https://gist.github.com/ciotlosm/1f09b330aa5bd5ea87b59f33609cc931) by [@ciotlosm](https://github.com/ciotlosm)
 * [lovelace-auto-entities](https://github.com/thomasloven/lovelace-auto-entities) by [@thomasloven](https://github.com/thomasloven) automatically populate the entities: list of a card or entity-row with entities matching a filter
 * [lovelace-browser-commander](https://github.com/thomasloven/lovelace-browser-commander) by [@thomasloven](https://github.com/thomasloven) control any browser viewing your lovelace frontend from Home Assistant
+* [config-template-card](https://github.com/custom-cards/config-template-card) by [@iantrich](https://github.com/iantrich) 📝 Templatable Lovelace Configurations
