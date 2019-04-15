@@ -44,3 +44,6 @@ Use all at your own risk.
 * [github-card](https://github.com/ljmerza/github-card) by [@ljmerza](https://github.com/ljmerza)
 * [waze-card](https://github.com/ljmerza/waze-card) by [@ljmerza](https://github.com/ljmerza) Waze routes data
 * [spotify-card](https://github.com/custom-cards/spotify-card) by [@fondberg](https://github.com/fondberg) Spotify Lovelace Card
+* [podcast-card](https://github.com/custom-cards/podcast-card) by [@iantrich](https://github.com/iantrich) 🎧 Podcast Card
+* [camera-card](https://github.com/custom-cards/camera-card) by [@iantrich](https://github.com/iantrich) 📺 Camera Card for Lovelace
+
