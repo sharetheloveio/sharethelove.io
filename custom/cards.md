@@ -17,10 +17,10 @@ Use all at your own risk.
 * [surveillance-card](https://github.com/custom-cards/surveillance-card) by [@jeradM](https://github.com/jeradM) A custom card for displaying camera feeds in the style of a surveillance system
 * [aftership-card](https://github.com/custom-cards/aftership-card) by [@ludeeus](https://github.com/ludeeus) Companion card for sensor.aftership
 * [circle-sensor-card](https://github.com/custom-cards/circle-sensor-card) by [@jeradM](https://github.com/jeradM) A custom component for displaying sensor values as cards or elements
-* [beer-card](https://github.com/ciotlosm/custom-lovelace/tree/master/beer-card) by [@ciotlosm](https://github.com/ciotlosm)
-* [bignumber-card](https://github.com/ciotlosm/custom-lovelace/tree/master/bignumber-card) by [@ciotlosm](https://github.com/ciotlosm)
-* [entity-attributes-card](https://github.com/ciotlosm/custom-lovelace/tree/master/entity-attributes-card) by [@ciotlosm](https://github.com/ciotlosm)
-* [monster-card](https://github.com/ciotlosm/custom-lovelace/tree/master/monster-card) by [@ciotlosm](https://github.com/ciotlosm)
+* [beer-card](https://github.com/custom-cards/beer-card) by [@ciotlosm](https://github.com/ciotlosm)
+* [bignumber-card](https://github.com/custom-cards/bignumber-card) by [@ciotlosm](https://github.com/ciotlosm)
+* [entity-attributes-card](https://github.com/custom-cards/entity-attributes-card) by [@ciotlosm](https://github.com/ciotlosm)
+* [monster-card](https://github.com/custom-cards/monster-card) by [@ciotlosm](https://github.com/ciotlosm)
 * [useful-markdown-card](https://github.com/thomasloven/lovelace-useful-markdown-card) by [@thomasloven](https://github.com/thomasloven)
 * [button-card](https://github.com/kuuji/button-card) by [@kuuji](https://github.com/kuuji) Button card
 * [mini-graph-card](https://github.com/kalkih/mini-graph-card) by [@kalkih](https://github.com/kalkih) Minimalistic graph card
