@@ -46,4 +46,6 @@ Use all at your own risk.
 * [spotify-card](https://github.com/custom-cards/spotify-card) by [@fondberg](https://github.com/fondberg) Spotify Lovelace Card
 * [podcast-card](https://github.com/custom-cards/podcast-card) by [@iantrich](https://github.com/iantrich) 🎧 Podcast Card
 * [camera-card](https://github.com/custom-cards/camera-card) by [@iantrich](https://github.com/iantrich) 📺 Camera Card for Lovelace
+* [xiaomi-vacuum-map-card](https://github.com/PiotrMachowski/Home-Assistant-Lovelace-Xiaomi-Vacuum-Map-card) by [@PiotrMachowski](https://github.com/PiotrMachowski) Xiaomi Vacuum Map Lovelace card
+* [html-card](https://github.com/PiotrMachowski/Home-Assistant-Lovelace-HTML-card) by [@PiotrMachowski](https://github.com/PiotrMachowski) HTML Lovelace card
 
