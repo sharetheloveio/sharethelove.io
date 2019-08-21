@@ -19,6 +19,7 @@ This requires you to have the following custom card setup
     card:
       type: entities
       title: Things that are broken
+      show_header_toggle: false
     filter:
       include:
         - state: "unknown"
