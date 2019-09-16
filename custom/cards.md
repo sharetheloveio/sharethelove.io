@@ -35,7 +35,7 @@ Use all at your own risk.
 * [dual-gauge-card](https://github.com/Rocka84/dual-gauge-card) by [@Rocka84](https://github.com/Rocka84) Dual gauge custom card for Lovelace in Home Assistant
 * [tiles-card](https://github.com/rodrigofragadf/lovelace-cards/tree/master/tiles-card) by [@rodrigofragadf](https://github.com/rodrigofragadf)
 * [pc-card](https://github.com/custom-cards/pc-card) by [@iantrich](https://github.com/iantrich) 💵 Personal Capital Lovelace Card
-* [power-wheel-card](https://github.com/gurbyz/custom-cards-lovelace/tree/master/power-wheel-card) by [@gurbyz](https://github.com/gurbyz)
+* [power-wheel-card](https://github.com/gurbyz/power-wheel-card) by [@gurbyz](https://github.com/gurbyz)
 * [roku-card](https://github.com/custom-cards/roku-card) by [@iantrich](https://github.com/iantrich) 📺 Roku Remote Card
 * [dual-thermostat](https://github.com/enriqg9/dual-thermostat) by [@enriqg9](https://github.com/enriqg9) Dual Thermostat Lovelace Card
 * [check-button-card](https://github.com/Gluwc/check-button-card) by [@Gluwc](https://github.com/Gluwc) A button that tracks when it is last pressed using MQTT auto discovery
