@@ -13,4 +13,4 @@ Use all at your own risk.
 * [plan-coordinates](https://github.com/ciotlosm/custom-lovelace/tree/master/plan-coordinates) by [@ciotlosm](https://github.com/ciotlosm)
 * [lovelace-gen](https://github.com/thomasloven/homeassistant-lovelace-gen) by [@thomasloven](https://github.com/thomasloven)
 * [card-tools](https://github.com/thomasloven/lovelace-card-tools) by [@thomasloven](https://github.com/thomasloven)
-* [home-setter](https://github.com/ciotlosm/custom-lovelace/tree/master/home-setter) by [@ciotlosm](https://github.com/ciotlosm)
+* [home-setter](https://github.com/custom-cards/home-setter) by [@custom-cards](https://github.com/custom-cards)

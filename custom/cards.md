@@ -21,7 +21,6 @@ Use all at your own risk.
 * [bignumber-card](https://github.com/custom-cards/bignumber-card) by [@ciotlosm](https://github.com/ciotlosm)
 * [entity-attributes-card](https://github.com/custom-cards/entity-attributes-card) by [@ciotlosm](https://github.com/ciotlosm)
 * [monster-card](https://github.com/custom-cards/monster-card) by [@ciotlosm](https://github.com/ciotlosm)
-* [useful-markdown-card](https://github.com/thomasloven/lovelace-useful-markdown-card) by [@thomasloven](https://github.com/thomasloven)
 * [button-card](https://github.com/kuuji/button-card) by [@kuuji](https://github.com/kuuji) Button card
 * [mini-graph-card](https://github.com/kalkih/mini-graph-card) by [@kalkih](https://github.com/kalkih) Minimalistic graph card
 * [mini-media-card](https://github.com/kalkih/mini-media-player) by [@kalkih](https://github.com/kalkih) Minimalistic media player card
@@ -42,10 +41,7 @@ Use all at your own risk.
 * [simple-thermostat](https://github.com/nervetattoo/simple-thermostat) by [@nervetattoo](https://github.com/nervetattoo) A different take on the thermostat card
 * [light-entity-card](https://github.com/ljmerza/light-entity-card) by [@ljmerza](https://github.com/ljmerza) Control any light entity
 * [github-card](https://github.com/ljmerza/github-card) by [@ljmerza](https://github.com/ljmerza)
-* [waze-card](https://github.com/ljmerza/waze-card) by [@ljmerza](https://github.com/ljmerza) Waze routes data
 * [spotify-card](https://github.com/custom-cards/spotify-card) by [@fondberg](https://github.com/fondberg) Spotify Lovelace Card
 * [podcast-card](https://github.com/custom-cards/podcast-card) by [@iantrich](https://github.com/iantrich) 🎧 Podcast Card
-* [camera-card](https://github.com/custom-cards/camera-card) by [@iantrich](https://github.com/iantrich) 📺 Camera Card for Lovelace
 * [xiaomi-vacuum-map-card](https://github.com/PiotrMachowski/Home-Assistant-Lovelace-Xiaomi-Vacuum-Map-card) by [@PiotrMachowski](https://github.com/PiotrMachowski) Xiaomi Vacuum Map Lovelace card
 * [html-card](https://github.com/PiotrMachowski/Home-Assistant-Lovelace-HTML-card) by [@PiotrMachowski](https://github.com/PiotrMachowski) HTML Lovelace card
-
