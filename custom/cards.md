@@ -46,3 +46,4 @@ Use all at your own risk.
 * [xiaomi-vacuum-map-card](https://github.com/PiotrMachowski/Home-Assistant-Lovelace-Xiaomi-Vacuum-Map-card) by [@PiotrMachowski](https://github.com/PiotrMachowski) Xiaomi Vacuum Map Lovelace card
 * [html-card](https://github.com/PiotrMachowski/Home-Assistant-Lovelace-HTML-card) by [@PiotrMachowski](https://github.com/PiotrMachowski) HTML Lovelace card
 * [rgb-light-card](https://github.com/bokub/rgb-light-card) by [@bokub](https://github.com/bokub) 💡 A minimalist card for RGB lights
+* [MeteoalarmCard](https://github.com/MrBartusek/MeteoalarmCard) by [@MrBartusek](https://github.com/MrBartusek/) ⛈️ Powerful Severe Weather Warnings Card
